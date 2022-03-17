@@ -33,6 +33,8 @@
 
 ```
 
+- In this pipeline, git-task will git clone this repo and inject values from all the `.env` files to its appropriate `dynamic.mqsc`. This way you can parameterized certains things such as route for receiver QM
+
 - Suggested access for this repo: developer and admins
 
 ## Steps
@@ -197,7 +199,7 @@ oc apply -f pipeline.yaml
 oc apply -f git-task.yaml
 ```
 
-Make sure you do not check in above files in this repo. Git-task script goes through every folder/every QM folder to check for .env files so the script will error out if you check in yaml files in this repo
+Make sure you do not check in newly created files on your git. Git-task script goes through every folder/every QM folder to check for .env files so the script will error out if you check in yaml files in this repo.
 
 ### 5. Run the pipeline
 
