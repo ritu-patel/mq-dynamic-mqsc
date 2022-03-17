@@ -205,4 +205,4 @@ Recommended: you can add webhook to trigger the pipeline run
 
 Next Steps:
 
-- Gitops (ArgoCD) - https://github.com/IBMMQAutomation/mq-pipeline
+- Gitops (ArgoCD) - https://github.com/ritu-patel/mq-gitops
